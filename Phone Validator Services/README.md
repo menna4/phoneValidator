@@ -1,6 +1,32 @@
-# Getting Started
+# Phone Validator
 
-### Phone Validation Application
-    This Application is used to ensure the validity of phone numbers 
-    pre installed in database.
+Phone Validator is an application used to validate some African countries phone numbers
+
+## Technologies and libraries used
+- Spring boot
+- Docker
+- Spring JPA
+
+- JUnit and Mockito for unit testing
+
+## Installation
+
+1. Use this command to clone the project:
+```bash
+$ git clone https://github.com/menna4/phoneValidator.git
+```
+2. In the terminal enter the root folder of the project and type the command:
+
+```bash
+$ docker-compose up
+```
+3. Visit the following URL to use the project:
+
+
+[http://localhost:4200](http://localhost:4200)
+4. In the terminal enter the root folder of the project after finishing the testing process of the application, run the following command:
+
+```bash
+$ docker-compose down
+```
 
