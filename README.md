@@ -2,12 +2,20 @@
 
 Phone Validator is an application used to validate some African countries phone numbers
 
-## Technologies and libraries used
+# Technologies and libraries used
+
+## Backend Libraries
 - Spring boot
 - Docker
 - Spring JPA
 
 - JUnit and Mockito for unit testing
+
+## Front end Libraries (a template was used and altered)
+- Javascript
+- HTML, bootstrap and CSS
+
+- Kendo Grid for table view
 
 ## Installation
 
