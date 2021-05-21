@@ -12,7 +12,7 @@
 	<groupId>com.assessment.jumia</groupId>
 	<artifactId>phonevalidator</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>phonevalidator</name>
 	<description>A spring boot application for phone numbers validations</description>
 	<properties>
@@ -68,21 +68,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 
-			<plugin>
-				<groupId>com.assessment.jumia</groupId>
-				<artifactId>phonevalidator</artifactId>
-				<executions>
-					<execution>
-						<id>repackage</id>
-						<goals>
-							<goal>repackage</goal>
-						</goals>
-						<configuration>
-							<finalName>phonevalidator</finalName>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
+
 		</plugins>
 
 	</build>

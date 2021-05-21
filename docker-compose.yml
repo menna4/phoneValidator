@@ -1,0 +1,15 @@
+version: '3.9'
+services: 
+    phone-validator-services:
+        build: ./phone-validator-services
+        container_name: phone-validator-services
+        ports:
+            - "8080:8080"
+        
+    phone-validator-apps:
+        build: ./phone-validator-apps
+        container_name: phone-validator-apps
+        ports: 
+            - "4200:80"
+        links: 
+            - phone-validator-services
